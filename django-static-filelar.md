@@ -1,9 +1,9 @@
 ## Djangoda static filelarning ishlamaslik muammosi
 ***
 #### Assalomu alekum. Ushbu maqolada static filelarning ishlamaslik muammosini bartaraf etamiz.
-Ushbu maqolaning namunamiy kodlarini [ushbu sahifa](https://github.com/sevbo2003/common-python-problems/tree/master/django-static-filelar/) dan topishiz mumkin. Qani unda boshladik
+Ushbu maqolaning namunamiy kodlarini [ushbu sahifa](https://github.com/sevbo2003/common-python-problems/tree/master/django-static-filelar) dan topishiz mumkin. Qani unda boshladik
 ***
-Demak maqolani 2 qismga bo'lamiz **Local** va **Production**. Ya'ni static filelarning local serverimizda va **deploy** qigandan keyingi ishlamaslik sabablarini ko'rib chiqamiz.
+Demak maqolani 2 qismga bo'lamiz [**Local**](https://github.com/sevbo2003/common-python-problems/blob/master/django-static-filelar.md#local) va [**Production**](https://github.com/sevbo2003/common-python-problems/blob/master/django-static-filelar.md#production). Ya'ni static filelarning local serverimizda va **deploy** qigandan keyingi ishlamaslik sabablarini ko'rib chiqamiz.
 
 ## Local
 Demak birinchi django projectimizda static filelarni qanday sozlash kerakligini bir nechta bosqichlarda ko'rib chiqamiz.
