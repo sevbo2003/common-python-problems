@@ -42,3 +42,15 @@ Demak birinchi django projectimizda static filelarni qanday sozlash kerakligini 
       Biz esa buni quyidagi holatga ko'chirishimiz kerak 
       
       ```<img src="{% static 'images/right-arrow.png' %}" alt="">``` **Mana endi static filelar ishlaydi**
+
+## Production
+#### Endi esa Django project ni deploy qigandan keyin ishlamaslik holatlarini ko'rib chiqamiz.
+Agar `DEBUG=False` qildizmi szning static filelaringiz ishlamaydi. Buning asosiy sababi esa endi django szning static filelarizni saqlamaydi. Chunki siz production leveldasiz va static filelarni server da saqlashiz kerak. Masalan `whitenoise` yoki `NGINX`. 
+   1. Eng asosiysi `STATIC_ROOT` borligiga ishinch hosil qiling. Undan keyin esa `python manage.py collectstatic`  buyrug'ini bering.
+   2. Keyingi bosqich esa *static* filelarizni saqlamoqchi bo'gan serverlarizning sozlamalarini sozlab chiqish. Bular siz qaysi server ni ishlatayotganizga bog'liq
+#### Agarda DEBUG=False qilgan holatda local serverizda static filelarni ishlashini xohlasayiz *1-bosqich* ni bajaring va keyin `python manage.py runserver --insecure` buyrug'i orqali ishlating
+
+
+## So'ngi so'zi
+Agar maqola yoqqan bo'lsa telegram kanalimizga a'zi bo'ling [malikovdev](https://t.me/malikovdev)
+Xato kamchiliklar bo'lsa tuzatib Pull Request bersangiz xursand bo'lamiz. **Rahmat**
