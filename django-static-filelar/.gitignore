@@ -1,2 +1,16 @@
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+# Environments
+.env
+.venv
+env/
 venv/
-db.sqlite3/
+ENV/
+env.bak/
+venv.bak/
