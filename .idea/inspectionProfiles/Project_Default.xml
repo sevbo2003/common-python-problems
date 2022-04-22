@@ -1,0 +1,133 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="118">
+            <item index="0" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="1" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="2" class="java.lang.String" itemvalue="uritemplate" />
+            <item index="3" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="4" class="java.lang.String" itemvalue="django-rest-swagger" />
+            <item index="5" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="6" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="7" class="java.lang.String" itemvalue="coreschema" />
+            <item index="8" class="java.lang.String" itemvalue="simplejson" />
+            <item index="9" class="java.lang.String" itemvalue="coreapi" />
+            <item index="10" class="java.lang.String" itemvalue="backports.zoneinfo" />
+            <item index="11" class="java.lang.String" itemvalue="itypes" />
+            <item index="12" class="java.lang.String" itemvalue="django-allauth" />
+            <item index="13" class="java.lang.String" itemvalue="openapi-codec" />
+            <item index="14" class="java.lang.String" itemvalue="Pillow" />
+            <item index="15" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="16" class="java.lang.String" itemvalue="django-ckeditor" />
+            <item index="17" class="java.lang.String" itemvalue="cffi" />
+            <item index="18" class="java.lang.String" itemvalue="asgiref" />
+            <item index="19" class="java.lang.String" itemvalue="cryptography" />
+            <item index="20" class="java.lang.String" itemvalue="defusedxml" />
+            <item index="21" class="java.lang.String" itemvalue="pycparser" />
+            <item index="22" class="java.lang.String" itemvalue="requests" />
+            <item index="23" class="java.lang.String" itemvalue="python3-openid" />
+            <item index="24" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="25" class="java.lang.String" itemvalue="requests-oauthlib" />
+            <item index="26" class="java.lang.String" itemvalue="Django" />
+            <item index="27" class="java.lang.String" itemvalue="certifi" />
+            <item index="28" class="java.lang.String" itemvalue="django-js-asset" />
+            <item index="29" class="java.lang.String" itemvalue="oauthlib" />
+            <item index="30" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="31" class="java.lang.String" itemvalue="pytz" />
+            <item index="32" class="java.lang.String" itemvalue="urllib3" />
+            <item index="33" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="34" class="java.lang.String" itemvalue="idna" />
+            <item index="35" class="java.lang.String" itemvalue="protobuf" />
+            <item index="36" class="java.lang.String" itemvalue="ttystatus" />
+            <item index="37" class="java.lang.String" itemvalue="Babel" />
+            <item index="38" class="java.lang.String" itemvalue="Brlapi" />
+            <item index="39" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="40" class="java.lang.String" itemvalue="duplicity" />
+            <item index="41" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="42" class="java.lang.String" itemvalue="roman" />
+            <item index="43" class="java.lang.String" itemvalue="ufw" />
+            <item index="44" class="java.lang.String" itemvalue="pycups" />
+            <item index="45" class="java.lang.String" itemvalue="django-templated-mail" />
+            <item index="46" class="java.lang.String" itemvalue="Click" />
+            <item index="47" class="java.lang.String" itemvalue="pycairo" />
+            <item index="48" class="java.lang.String" itemvalue="macaroonbakery" />
+            <item index="49" class="java.lang.String" itemvalue="PyGObject" />
+            <item index="50" class="java.lang.String" itemvalue="distro-info" />
+            <item index="51" class="java.lang.String" itemvalue="systemd-python" />
+            <item index="52" class="java.lang.String" itemvalue="appdirs" />
+            <item index="53" class="java.lang.String" itemvalue="cliapp" />
+            <item index="54" class="java.lang.String" itemvalue="djangorestframework-simplejwt" />
+            <item index="55" class="java.lang.String" itemvalue="filelock" />
+            <item index="56" class="java.lang.String" itemvalue="PyNaCl" />
+            <item index="57" class="java.lang.String" itemvalue="Pygments" />
+            <item index="58" class="java.lang.String" itemvalue="PyQt5" />
+            <item index="59" class="java.lang.String" itemvalue="docutils" />
+            <item index="60" class="java.lang.String" itemvalue="monotonic" />
+            <item index="61" class="java.lang.String" itemvalue="entrypoints" />
+            <item index="62" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="63" class="java.lang.String" itemvalue="Markdown" />
+            <item index="64" class="java.lang.String" itemvalue="gpg" />
+            <item index="65" class="java.lang.String" itemvalue="lazr.restfulclient" />
+            <item index="66" class="java.lang.String" itemvalue="reportlab" />
+            <item index="67" class="java.lang.String" itemvalue="pexpect" />
+            <item index="68" class="java.lang.String" itemvalue="lazr.uri" />
+            <item index="69" class="java.lang.String" itemvalue="python-apt" />
+            <item index="70" class="java.lang.String" itemvalue="SecretStorage" />
+            <item index="71" class="java.lang.String" itemvalue="ubuntu-advantage-tools" />
+            <item index="72" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="73" class="java.lang.String" itemvalue="pyxdg" />
+            <item index="74" class="java.lang.String" itemvalue="paramiko" />
+            <item index="75" class="java.lang.String" itemvalue="PySocks" />
+            <item index="76" class="java.lang.String" itemvalue="virtualenv" />
+            <item index="77" class="java.lang.String" itemvalue="distlib" />
+            <item index="78" class="java.lang.String" itemvalue="djoser" />
+            <item index="79" class="java.lang.String" itemvalue="Mako" />
+            <item index="80" class="java.lang.String" itemvalue="pymacaroons" />
+            <item index="81" class="java.lang.String" itemvalue="distro" />
+            <item index="82" class="java.lang.String" itemvalue="defer" />
+            <item index="83" class="java.lang.String" itemvalue="netifaces" />
+            <item index="84" class="java.lang.String" itemvalue="more-itertools" />
+            <item index="85" class="java.lang.String" itemvalue="requests-unixsocket" />
+            <item index="86" class="java.lang.String" itemvalue="httplib2" />
+            <item index="87" class="java.lang.String" itemvalue="wadllib" />
+            <item index="88" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="89" class="java.lang.String" itemvalue="python-debian" />
+            <item index="90" class="java.lang.String" itemvalue="cupshelpers" />
+            <item index="91" class="java.lang.String" itemvalue="alabaster" />
+            <item index="92" class="java.lang.String" itemvalue="virtualenv-clone" />
+            <item index="93" class="java.lang.String" itemvalue="launchpadlib" />
+            <item index="94" class="java.lang.String" itemvalue="zipp" />
+            <item index="95" class="java.lang.String" itemvalue="louis" />
+            <item index="96" class="java.lang.String" itemvalue="sip" />
+            <item index="97" class="java.lang.String" itemvalue="blinker" />
+            <item index="98" class="java.lang.String" itemvalue="six" />
+            <item index="99" class="java.lang.String" itemvalue="xkit" />
+            <item index="100" class="java.lang.String" itemvalue="torbrowser-launcher" />
+            <item index="101" class="java.lang.String" itemvalue="imagesize" />
+            <item index="102" class="java.lang.String" itemvalue="packaging" />
+            <item index="103" class="java.lang.String" itemvalue="pipenv" />
+            <item index="104" class="java.lang.String" itemvalue="social-auth-core" />
+            <item index="105" class="java.lang.String" itemvalue="chardet" />
+            <item index="106" class="java.lang.String" itemvalue="lockfile" />
+            <item index="107" class="java.lang.String" itemvalue="chrome-gnome-shell" />
+            <item index="108" class="java.lang.String" itemvalue="social-auth-app-django" />
+            <item index="109" class="java.lang.String" itemvalue="pyRFC3339" />
+            <item index="110" class="java.lang.String" itemvalue="Sphinx" />
+            <item index="111" class="java.lang.String" itemvalue="colorama" />
+            <item index="112" class="java.lang.String" itemvalue="fasteners" />
+            <item index="113" class="java.lang.String" itemvalue="future" />
+            <item index="114" class="java.lang.String" itemvalue="dbus-python" />
+            <item index="115" class="java.lang.String" itemvalue="olefile" />
+            <item index="116" class="java.lang.String" itemvalue="usb-creator" />
+            <item index="117" class="java.lang.String" itemvalue="keyring" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>

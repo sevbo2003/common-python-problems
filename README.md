@@ -1,0 +1,4 @@
+# Pythonda uchraydigan muammolar
+<hr>
+
+## 
