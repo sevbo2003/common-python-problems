@@ -10,15 +10,15 @@ Demak birinchi django projectimizda static filelarni qanday sozlash kerakligini 
 
 1. **Static ni `settings.py url.py` qo'shish** 
    1. `settings.py` file ichiga `STATIC_URL` ni qo'shish kerak. Masalan: `STATIC_URL = 'static/'`
-   2. `STATIC_ROOT` yoki `STATICFILES_DIRS` ni larni `STATIC_URL` qo'shish kerak. Bu ikkalasini farqi nimada? Qisqa qilib aytgan `STATICFILES_DIRS` `DEBUG=False` bo'lgan paytda, `STATIC_ROOT` esa `DEBUG=True` bo'lgan paytda ishlaydi. Masalan:
+   2. `STATIC_ROOT` yoki `STATICFILES_DIRS` ni larni `STATIC_URL` qo'shish kerak. Bu ikkalasini farqi nimada? Qisqa qilib aytgan `STATICFILES_DIRS` `DEBUG=True` bo'lgan paytda, `STATIC_ROOT` esa `DEBUG=False` bo'lgan paytda ishlaydi. Masalan:
        ```
       STATIC_URL = 'static/'
-          if DEBUG == True:
-              STATICFILES_DIRS = (BASE_DIR / 'static',)
-          else:
-              STATIC_ROOT = BASE_DIR / 'static_root'
+      if DEBUG == True:
+          STATICFILES_DIRS = (BASE_DIR / 'static',)
+       else:
+          STATIC_ROOT = BASE_DIR / 'static_root'
       ```
-        Bu yerda menda static va static_root degan papkalar asosiy directory da joylashganligi uchun `BASE_DIR` qildim va `DEBUG=False` bo'lganda `STATICFILES_DIRS` ni, aks holda `STATIC_ROOT` ni ishlat deb shart berdik
+        Bu yerda menda static va static_root degan papkalar asosiy directory da joylashganligi uchun `BASE_DIR` qildim va `DEBUG=True` bo'lganda `STATICFILES_DIRS` ni, aks holda `STATIC_ROOT` ni ishlat deb shart berdik
    3. Asosiy `urls.py` ni ichiga static url larni tanitishimiz kerak. Buning uchun `urlpatterns` ga `STATIC_URL` va `STATICFILES_DIRS` ni qo'shib qo'yamiz. Namunaviy kod:
       ```
          from django.conf import settings  # setting.py ni import qildik
