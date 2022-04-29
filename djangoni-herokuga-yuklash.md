@@ -1,17 +1,17 @@
 ## **Django loyihani herokuga yuklash bo'yicha qo'llanma**
 ***
 
-> Django loyihani herokuga yuklash bo'yicha qo'llanma Ushbu maqolada djangoni herokuga terminal orqali yuklash ketma-ket liklarini ko'rib chiqamiz
+### Django loyihani herokuga yuklash bo'yicha qo'llanma Ushbu maqolada djangoni herokuga terminal orqali yuklash ketma-ket liklarini ko'rib chiqamiz
 
 > Muallif: [Abdusamad](https://t.me/malikovdev)
 
 > Savollar uchun guruh: [Djangouzb](https://t.me/djangouzb)
 
 Bo'limlar   
- 1. [Django qismi]()
- 2. [Database qismi]()
- 3. [Heroku qismi]()
- 4. [Deploy vaqti uchraydigan muammolar]()
+ 1. [Django qismi](https://github.com/sevbo2003/common-python-problems/blob/master/djangoni-herokuga-yuklash.md#django-qismi)
+ 2. [Database qismi](https://github.com/sevbo2003/common-python-problems/blob/master/djangoni-herokuga-yuklash.md#database-qismi)
+ 3. [Heroku qismi](https://github.com/sevbo2003/common-python-problems/blob/master/djangoni-herokuga-yuklash.md#heroku-qismi)
+ 4. [Deploy vaqti uchraydigan muammolar](https://github.com/sevbo2003/common-python-problems/blob/master/djangoni-herokuga-yuklash.md#muammolar)
 
 
 ## Django qismi
@@ -57,7 +57,7 @@ Bo'limlar
     ]
     ```
     > Bu yerda sal e'tiborli bo'ling. Ya'ni whitenoise ni Djangoning o'zida mavjud bo'lgan `SecurityMiddleware` tagiga qo'shing
-9. Bu qismini bajarishdan oldin [DATABASE]() qismini ko'rib chiqing va unda qanday database ochishni o'rganasz 
+9. Bu qismini bajarishdan oldin [DATABASE](https://github.com/sevbo2003/common-python-problems/blob/master/djangoni-herokuga-yuklash.md#database-qismi) qismini ko'rib chiqing va unda qanday database ochishni o'rganasz 
     
     ```
     DATABASES = {
