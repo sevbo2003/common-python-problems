@@ -17,7 +17,7 @@ Bo'limlar
 ## Django qismi
 ***
 > ⚠️ Virtual muhit ichida ekanligizga ishonch hosil qiling
-1. Kreakli packege larni o'rnatib olamiz
+1. Kerakli package larni o'rnatib olamiz
     - gunicorn (application server [batafsil](https://vsupalov.com/what-is-gunicorn/)
     - dj-database-url (Database uchun)
     - whitenoise (static filelarni saqlash uchun [batafsil](https://github.com/sevbo2003/common-python-problems/blob/master/django-static-filelar.md)
