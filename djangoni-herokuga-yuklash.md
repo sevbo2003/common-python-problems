@@ -36,18 +36,18 @@ Bo'limlar
 4. ```echo "web: gunicorn PROJECT_NOMI.wsgi" > Procfile```
     
     Bu yerda `PROJECT_NOMI` o'rniga wsgi.py fayli turgan papkani yozing.
-5. ```
+5. ```python
     INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
      # ...
     ]
     ```
     whitenoise static filelarni saqlashi uchun installed apps ichiga qo'shishimiz kerak
-6. ``` 
+6. ```python 
     ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
     ```
 7. ` DEBUG = False`
-8. ```
+8. ```python
     MIDDLEWARE = [
         'django.middleware.security.SecurityMiddleware',
         
@@ -59,7 +59,7 @@ Bo'limlar
     > Bu yerda sal e'tiborli bo'ling. Ya'ni whitenoise ni Djangoning o'zida mavjud bo'lgan `SecurityMiddleware` tagiga qo'shing
 9. Bu qismini bajarishdan oldin [DATABASE](https://github.com/sevbo2003/common-python-problems/blob/master/djangoni-herokuga-yuklash.md#database-qismi) qismini ko'rib chiqing va unda qanday database ochishni o'rganasz 
     
-    ```
+    ```python
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
@@ -78,7 +78,7 @@ Bo'limlar
     ```
     Shularni `sqLite3` database o'rniga qo'shib qo'ying
 
-10. ```
+10. ```python
     STATIC_ROOT = BASE_DIR / 'static'
 
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
@@ -105,29 +105,29 @@ Bo'limlar
     - Linux uchun snap orqali: `sudo snap install heroku --classic`
     - Windows uchun: [Ushbu sahifa](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) orqali yuklab oling
  3. O'rnatib olganizdan so'ng Heroku akkountga uchbu buyruq      orqali kiring: **Brauzer** ochiladi va o'sha orqali kirasz
-    ```
+    ```python
     heroku login
     ```
     
 4. Herokuda loyihayiz uchun app yaratish
-    ```
+    ```python
     heroku create proyekt_nomi
     ```
     
 5. Endi django loyihayiz turgan papkada turganiz ga ishonch hosil qiling va ushbu buyruqlar orqali heroku ga yuklaysiz loyihayizni:
-    ```
+    ```python
     git add -A
     git commit -am "Initial"
     git push heroku master
     ```
     Mana endi sizning loyihangiz Herokuga yuklandi. Endi navbat keyingi bosqichga ))
 6. PostgreSQL ishlashi uchun uni Herokuda aktivlashtirish kerak. Quiyidagi buyruqni tering:
-    ```
+    ```python
     heroku addons:create heroku-postgresql:hobby-dev --app PROYEKT_NOMI
     ```
     Bu yerda **PROYEKT_NOMI** o'rniga boshida heroku uchun yaratgan PROYEKT_NOMI ni yozing
 7. Endi navbat django uchun har doim ishlatadigan buyruqlarga. Menimcha hammasini bilasz 😊:
-    ```
+    ```python
     heroku run python manage.py collectstatic
 
     heroku run python manage.py makemigrations
