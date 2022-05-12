@@ -1,4 +1,5 @@
 # Pythonda uchraydigan muammolar
+<img src="https://img.shields.io/github/stars/sevbo2003/common-python-problems?color=green"> <img src="https://img.shields.io/badge/articles-3-red">
 #### Loyihaning asosiy maqsadi Python da dasturlashni endi boshlaganlar o'rtasidagi muammolarga yechim topish va to'g'ri yo'l ko'rsatish. Loyiha Open Source va siz ham o'z maqolangizni joylashiz mumkin. Biz sizni kutyapmiz )) Hurmat bilam Abdusamad
 <hr>
 
